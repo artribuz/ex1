@@ -1,0 +1,57 @@
+body{
+    background-color: #ECECDA;
+}
+header{
+    width:800px;
+    height:250px;
+}
+nav{
+    float:left;
+    width:150px;
+    height:400px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #0E2F56;
+    font-size: 15pt;
+}
+li{
+    list-style-type:none;
+}
+a:link   {
+    color:#0E2F56;
+    text-decoration:none;
+    }
+a:visited  {
+    color:#0E2F56;
+    text-decoration:none;
+    }
+a:hover{
+    color: #FF304F;
+}
+section{
+    margin-left:20px;
+    width: 75%; 
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+h1{
+    font-family: 'Poiret One', sans-serif;
+    color: #118DF0;
+    font-size: 24pt;
+    line-height:10%;
+    padding-left:10px;
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #0E2F56;
+    text-indent:60px;
+    padding-left:10px;
+    padding-right:20px;
+}
+img{
+    width:150px;
+    height:270px;
+    padding-left: 5%;
+    padding-right: 5%;
+}

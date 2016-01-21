@@ -13,25 +13,14 @@ header{
         border-style:solid;
         border-color:#0E2F56;      
 }
-nav{
-    float:left;
-    width:150px;
-    height:400px;
-    background-color: rgba(255, 255, 255, 0.7);
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-decoration: none;
-    color: #0E2F56;
-    font-size: 15pt;
-}
-li{
-    list-style-type:none;
-}
 a:link   {
-    color:#0E2F56;
+    color:#118DF0;
     text-decoration:none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:20pt;
     }
 a:visited  {
-    color:#0E2F56;
+    color:#118DF0;
     text-decoration:none;
     }
 a:hover{
@@ -42,6 +31,15 @@ section{
     margin-right:auto;
     width: 800px; 
     background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 10px;
+}
+h2{
+    font-family: 'Poiret One', sans-serif;
+    color: #FF304F;
+    text-align: right;
+    width:800px;
+    font-size: 30pt;
+    
 }
 h1{
     font-family: 'Poiret One', sans-serif;
@@ -69,4 +67,11 @@ img.wide{
     height:270px;
     padding-left: 20px;
     padding-right: 20px;
+}
+footer{
+    text-align:center;
+    background-color: #0E2F56;
+    bottom:0px;
+    position:fixed;
+    width:100%;
 }

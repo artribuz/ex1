@@ -1,9 +1,17 @@
 body{
+    margin:0;
+    padding:0;
     background-color: #ECECDA;
 }
 header{
-    width:800px;
-    height:250px;
+
+        width:800px;
+        height:250px;
+        margin-left:auto;
+        margin-right:auto;
+        border-width:2px;
+        border-style:solid;
+        border-color:#0E2F56;      
 }
 nav{
     float:left;
@@ -30,28 +38,35 @@ a:hover{
     color: #FF304F;
 }
 section{
-    margin-left:20px;
-    width: 75%; 
-    float: left;
+    margin-left:auto;
+    margin-right:auto;
+    width: 800px; 
     background-color: rgba(255, 255, 255, 0.7);
 }
 h1{
     font-family: 'Poiret One', sans-serif;
     color: #118DF0;
     font-size: 24pt;
-    line-height:10%;
     padding-left:10px;
+    padding-top:10px;
 }
 p{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #0E2F56;
     text-indent:60px;
-    padding-left:10px;
+    padding-left:20px;
     padding-right:20px;
+    padding-bottom: 20px;
 }
-img{
+img.skinny{
     width:150px;
     height:270px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+img.wide{
+    width:350px;
+    height:270px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

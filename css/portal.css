@@ -32,7 +32,6 @@ h1      {
         font-size: 28pt;
         }
 #column1 {
-        margin-left:;
         width: 30%; 
         float: left; 
         padding-right: 30%;
@@ -49,6 +48,8 @@ nav {
 a:link   {
     color:#FF304F;
     text-decoration:none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15pt
     }
 a:visited  {
     color:#FF304F;
@@ -64,6 +65,19 @@ img   {
 		margin-left:auto;
 		margin-right:auto;
 		}
+#val1{
+    position:absolute;
+    margin-top:25px;
+    margin-left:-100px;
+}
+#val1:hover, #val2:hover{
+    color:#118DF0;
+}
+#val2{
+    position:absolute;
+    margin-top: 25px;
+    margin-left:22px;
+}
 footer  {
         text-align: center;
         background-color: #0E2F56;

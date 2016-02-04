@@ -52,7 +52,7 @@ h1{
     padding-top:10px;
 }
 p{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     color: #0E2F56;
     text-indent:60px;
     padding-left:20px;
@@ -78,7 +78,7 @@ footer{
     position:fixed;
     width:100%;
 }
-img#single{
+img.single{
     width:500px;
     height:350px;
     padding-left: 150px;

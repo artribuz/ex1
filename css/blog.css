@@ -1,85 +1,103 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     background-color: #ECECDA;
 }
-header{
 
-        width:800px;
-        height:250px;
-        margin-left:auto;
-        margin-right:auto;
-        border-width:2px;
-        border-style:solid;
-        border-color:#0E2F56;      
+header {
+    width: 800px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0E2F56;
 }
-a:link   {
-    color:#118DF0;
-    text-decoration:none;
+
+a:link {
+    color: #118DF0;
+    text-decoration: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size:20pt;
+    font-size: 20pt;
     padding: 25px;
-    }
-a:visited  {
-    color:#118DF0;
-    text-decoration:none;
-    }
-a:hover{
+}
+
+a:visited {
+    color: #118DF0;
+    text-decoration: none;
+}
+
+a:hover {
     color: #FF304F;
 }
-section{
-    margin-left:auto;
-    margin-right:auto;
-    width: 800px; 
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
     background-color: rgba(255, 255, 255, 0.7);
     padding-bottom: 10px;
 }
-h2{
-    margin-left:auto;
-    margin-right:auto;
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Poiret One', sans-serif;
     color: #FF304F;
     text-align: right;
-    width:800px;
+    width: 800px;
     font-size: 30pt;
-    
 }
-h1{
+
+h1 {
     font-family: 'Poiret One', sans-serif;
     color: #118DF0;
     font-size: 24pt;
-    padding-left:10px;
-    padding-top:10px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
-p{
+
+p {
     font-family: 'Droid Sans', sans-serif;
     color: #0E2F56;
-    text-indent:60px;
-    padding-left:20px;
-    padding-right:20px;
+    text-indent: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
 }
-img.skinny{
-    width:150px;
-    height:270px;
+p a:link, a:visited{
+    font-family: 'Droid Sans', sans-serif;
+    font-size:12pt;
+    padding: 0px;
+}
+p a:hover{
+    color: #FF304F;
+}
+
+img.skinny {
+    width: 150px;
+    height: 270px;
     padding-left: 50px;
     padding-right: 50px;
 }
-img.wide{
-    width:350px;
-    height:270px;
+
+img.wide {
+    width: 350px;
+    height: 270px;
     padding-left: 20px;
     padding-right: 20px;
 }
-footer{
-    text-align:center;
+
+footer {
+    text-align: center;
     background-color: #0E2F56;
-    bottom:0px;
-    position:fixed;
-    width:100%;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
 }
-img.single{
-    width:500px;
-    height:350px;
+
+img.single {
+    width: 500px;
+    height: 350px;
     padding-left: 150px;
 }

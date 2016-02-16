@@ -65,12 +65,15 @@ p {
     padding-right: 20px;
     padding-bottom: 20px;
 }
-p a:link, a:visited{
+
+p a:link,
+a:visited {
     font-family: 'Droid Sans', sans-serif;
-    font-size:12pt;
+    font-size: 12pt;
     padding: 0px;
 }
-p a:hover{
+
+p a:hover {
     color: #FF304F;
 }
 

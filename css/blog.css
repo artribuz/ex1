@@ -96,7 +96,11 @@ footer {
     background-color: #0E2F56;
     bottom: 0px;
     position: fixed;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0px;
+    left: 0px;
+    width: 800px;
 }
 
 img.single {

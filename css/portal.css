@@ -1,89 +1,103 @@
 /*Colors: light blue (#118DF0) dark blue (#0E2F56) pink (#FF304F) cream (#ECECDA)*/
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ECECDA;
+}
 
-body    {margin:0;
-        padding:0;
-        background-color: #ECECDA;
+header {
+    width: 800px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0E2F56;
 }
-header  { 
-        width:800px;
-        height:250px;
-        margin-left:auto;
-        margin-right:auto;
-        border-width:2px;
-        border-style:solid;
-        border-color:#0E2F56;
-        }
-section{
-    height:500px;
-    width:800px;
-    margin-left:auto;
-    margin-right:auto;
+
+section {
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
-h2  {
+
+h2 {
     font-family: 'Poiret One', sans-serif;
     color: #0E2F56;
     font-size: 28pt;
     line-height: 10px;
 }
-h1      {
-        font-family: 'Poiret One', sans-serif;
-        color: #118DF0;
-        font-size: 18pt;
-        }
+
+h1 {
+    font-family: 'Poiret One', sans-serif;
+    color: #118DF0;
+    font-size: 18pt;
+}
+
 #column1 {
-        width: 30%; 
-        float: left; 
-        padding-right: 30%;
-        }
-#column2 {width: 30%; 
-        float:left; 
-        }
+    width: 30%;
+    float: left;
+    padding-right: 30%;
+}
+
+#column2 {
+    width: 30%;
+    float: left;
+}
+
 nav {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-decoration: none;
     color: #0E2F56;
     font-size: 15pt;
-    }
-a:link   {
-    color:#FF304F;
-    text-decoration:none;
+}
+
+a:link {
+    color: #FF304F;
+    text-decoration: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 13pt
-    }
-a:visited  {
-    color:#FF304F;
-    text-decoration:none;
-    }
-a:hover{
+}
+
+a:visited {
+    color: #FF304F;
+    text-decoration: none;
+}
+
+a:hover {
     color: #0E2F56;
 }
 
-img   {
-        width:75px;
-		height:75px;
-		margin-left:auto;
-		margin-right:auto;
-		}
-#val1{
-    position:absolute;
-    margin-top:25px;
-    margin-left:-100px;
-}
-#val1:hover, #val2:hover{
-    color:#118DF0;
-}
-#val2{
-    position:absolute;
-    margin-top: 25px;
-    margin-left:22px;
+img {
+    width: 75px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-footer  {
-        text-align: center;
-        background-color: #0E2F56;
-        bottom:0px;
-        position:fixed;
-        width: 100%;
-        
+#val1 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -100px;
+}
+
+#val1:hover,
+#val2:hover {
+    color: #118DF0;
+}
+
+#val2 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0E2F56;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
 }

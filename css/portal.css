@@ -17,7 +17,7 @@ header {
 }
 
 section {
-    height: 450px;
+    height: 500px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -50,10 +50,20 @@ h1 {
 #column3 {
     width:30%;
     float: left;
-    padding-top:76px;
+}
+
+div#column3 h1{
+    visibility: hidden;
 }
 
 nav {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #0E2F56;
+    font-size: 15pt;
+}
+
+nav#column3{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-decoration: none;
     color: #0E2F56;
